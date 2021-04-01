@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+          fetch="ssh://git@github.com" />
+
+  <default remote="github"
+           revision="refs/heads/main"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="project"
+           name="bvlj/usi_bachelor_project"
+           revision="master" />
+
+  <project path="quiz-generator"
+           name="LuCEresearchlab/quiz-generator"
+           revision="staging" />
+
+  <project path="expression-tutor"
+           name="LuCEresearchlab/expression-tutor"
+           revision="expr-generator" />
+
+  <project path="antlr-101"
+           name="LuCEresearchlab/antlr-101" />
+
+  <project path="report"
+           name="LuCEresearchlab/2021-bachelor-bevilacqua" />
+
+</manifest>

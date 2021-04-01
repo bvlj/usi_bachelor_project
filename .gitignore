@@ -1,0 +1,14 @@
+# Demo folders
+/demo-*
+
+# LaTeX
+*.aux
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
+
+# VsCode
+.vscode
