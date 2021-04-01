@@ -1,0 +1,92 @@
+\documentclass[t,aspectratio=1610]{beamer}
+
+\usepackage{listings}
+
+\usetheme{default}
+\beamertemplatenavigationsymbolsempty\setbeamersize{
+    text margin left=0.75cm,
+    text margin right=0.75cm
+}
+
+% Title
+\setbeamerfont{title}{size=\LARGE, 
+                      series=\bfseries,
+                      family=\rmfamily}
+\setbeamercolor{title}{fg=blue!70!black}
+\setbeamertemplate{frametitle}{
+    \nointerlineskip\;
+    \begin{beamercolorbox}[sep=.1ex,
+                           wd=\paperwidth,
+                           leftskip=0.5cm,
+                           rightskip=0pt]{frametitle}
+        \usebeamerfont{frametitle}
+        \usebeamercolor[fg]{frametitle}
+        \\
+        \hfill
+        \insertframetitle\;
+        \strut\;
+    \end{beamercolorbox}
+}
+% Alerted text
+\setbeamerfont{alerted text}{shape=\itshape,
+                             series=\bfseries}
+\setbeamercolor{alerted text}{fg=blue!70!black}
+% Itemize
+\setbeamercolor{itemize item}{fg=blue!70!black}
+\setbeamercolor{itemize subitem}{fg=blue!70!black}
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[triangle]
+% Blocks
+\setbeamercolor{block body example}{fg=black!90,
+                                    bg=black!10}
+\setbeamercolor{block title example}{fg=white,
+                                     bg=blue!30!black!30}
+\setbeamertemplate{blocks}[shadow=true]
+
+\title{Bachelor Project SP 2021}
+\subtitle{Quiz generator}
+\author{Bevilacqua Joey\\Advisor: Hauswirth Matthias\\Co-Advisor: Moreno Santos Igor}
+\institute{Universit\`a della Svizzera Italiana}
+\date{March 8, 2021}
+
+\begin{document}
+
+% Slide 1
+\begin{frame}
+\maketitle
+\end{frame}
+
+% Slide 2
+\begin{frame}
+\begin{itemize}
+\item \alert{Project objectives}
+\begin{itemize}
+\item Develop a tool to automatically synthesize programming
+      quiz questions given a grammar and a template. This tool
+      is then to be used by the 
+      \textit{Lugano Computing Education research lab} for
+      teaching purposes
+\end{itemize}
+
+\medbreak
+
+\item \alert{Project activities}
+\begin{enumerate}
+\item Create a tool that given a template and a simple
+      key-value grammar, it returns a compiled version
+      of said template
+\item Implement a tool for ``navigating'' grammars to
+      generate an AST
+\item Implement constraints on the generated AST such
+      as tree height and inclusion of a specific grammar rule
+\item Implement a ``template format'' that can provide
+      specifications that the template engine has to
+      fulfill
+\item Connect the AST generator to the template engine
+      to replace the original key-value grammar generator
+\item Write a report to detail the development process of the
+      tool
+\end{enumerate}
+\end{itemize}
+\end{frame}
+\end{document}
