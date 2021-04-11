@@ -10,8 +10,7 @@
            sync-j="4" />
 
   <project path="project"
-           name="bvlj/usi_bachelor_project"
-           revision="master">
+           name="bvlj/usi_bachelor_project">
     <linkfile src="shell.nix" dest="shell.nix" />
   </project>
 
