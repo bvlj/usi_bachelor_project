@@ -12,3 +12,5 @@
 
 # VsCode
 .vscode
+
+.DS_Store

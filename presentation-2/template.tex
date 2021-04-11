@@ -1,4 +1,4 @@
-\documentclass[t,aspectratio=169]{beamer}
+\documentclass[t,aspectratio=43]{beamer}
 
 \usepackage{listings}
 
@@ -49,6 +49,8 @@
 \institute{Universit\`a della Svizzera Italiana}
 \date{April 12, 2021}
 
+\geometry{paperwidth=500pt, paperheight=300pt}
+
 \begin{document}
 
 % Slide 1
@@ -60,22 +62,25 @@
 \begin{frame}
 \begin{center}
 \begin{tabular}{lll}
-\textbf{Activity}                    & \textbf{Status}                           & \textbf{Effort} \\\hline
-Preparation activities: setup work,  & Completed. Used tools: Bazel build,       & 2 days          \\
-environment, testing infrastructure, & system JUnit, PMD, Checkstyle,            &                 \\
-static analysis tools                & GitHub actions                            &                 \\\hline
-Implement a tool for generating      & Completed. It's possible to generate      & 5 days          \\
-expressions from grammars            & random expressions using ANTLR grammars   &                 \\\hline
-Implement constraints on the         & Partially completed. Rule inclusion and   & 6 days          \\
-randomly generated AST such as tree  & height upper bound have been implemented. &                 \\
-height and inclusion of a specific   & More constraints will be added depending  &                 \\
-grammar rule                         & on the project development progress.      &                 \\\hline
-Command line interface for           & Completed. It is possible to generate     & 1 day           \\
-generating expressions               & expressions from the command line.        &                 \\\hline
-Implement web integrations for       & Partially completed. A functional         & 2 days          \\
-\url{https://expressiontutor.org}    & prototype integration has been developed. &                 \\\hline
-Write a report to detail the         & To be done.                               & 2 days          \\
-development process of the tool      &                                           &                 \\\hline
+\textbf{Activity}                   & \textbf{Status}                           & \textbf{Effort} \\\hline
+Preparation activities: setup work, & Completed. Used tools: Bazel build,       & 2 days          \\
+environment, testing infrastructure & system JUnit, PMD, Checkstyle,            &                 \\
+and static analysis tools.          & GitHub actions.                           &                 \\\hline
+Setup ANTLR \& write a parser and   & Completed. A reference project has been   & 1 day           \\
+interpreter for a simple expression & created and documented so that it can     &                 \\
+language.                           & be used to understand how ANTLR works.    &                 \\\hline
+Implement a tool for generating     & Completed. It's possible to generate      & 5 days          \\
+expressions from grammars.          & random expressions using ANTLR grammars.  &                 \\\hline
+Implement constraints on the        & Partially completed. Rule inclusion and   & 6 days          \\
+randomly generated AST such as tree & tree height bounds have been implemented. &                 \\
+height and inclusion of a specific  & More constraints will be added depending  &                 \\
+grammar rule.                       & on the project development progress.      &                 \\\hline
+Command line interface for          & Completed. It is possible to generate     & 1 day           \\
+generating expressions.             & expressions from the command line.        &                 \\\hline
+Implement web integrations for      & Partially completed. A functional         & 2 days          \\
+\url{https://expressiontutor.org}   & prototype integration has been developed. &                 \\\hline
+Write a report to detail the        & To be done.                               & 3 days          \\
+development process of the tool.    &                                           &                 \\\hline
 \end{tabular}
 \end{center}
 \end{frame}
