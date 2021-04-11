@@ -11,7 +11,9 @@
 
   <project path="project"
            name="bvlj/usi_bachelor_project"
-           revision="master" />
+           revision="master">
+    <linkfile src="shell.nix" dest="shell.nix" />
+  </project>
 
   <project path="quiz-generator"
            name="LuCEresearchlab/quiz-generator"

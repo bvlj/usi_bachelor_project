@@ -1,5 +1,7 @@
 # Bachelor Project: quiz generator
 
+## Work environment
+
 Init with
 
 ```bash
@@ -10,4 +12,10 @@ Sync with
 
 ```bash
 repo sync
+```
+
+Load nix-shell for isolated work environment
+
+```bash
+nix-shell shell.nix
 ```
