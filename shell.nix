@@ -4,9 +4,9 @@ pkgs.mkShell {
     pkgs.buildPackages.bazel_4
     pkgs.buildPackages.bazel-buildtools
     pkgs.buildPackages.git
-    pkgs.buildPackages.git-repo
     pkgs.buildPackages.graphviz
     pkgs.buildPackages.lcov
+    pkgs.buildPackages.mongodb-4_2
     pkgs.buildPackages.nodejs
   ];
 }
