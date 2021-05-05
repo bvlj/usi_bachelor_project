@@ -1,5 +1,7 @@
 # Demo folders
-/demo-*
+/demo-*/*.jar
+/demo-*/*.g4
+/demo-*/*.txt
 
 # LaTeX
 *.aux
