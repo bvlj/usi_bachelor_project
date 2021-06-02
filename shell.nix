@@ -7,6 +7,6 @@ pkgs.mkShell {
     pkgs.buildPackages.graphviz
     pkgs.buildPackages.lcov
     pkgs.buildPackages.mongodb-4_2
-    pkgs.buildPackages.nodejs
+    pkgs.buildPackages.nodejs-16_x
   ];
 }

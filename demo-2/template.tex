@@ -179,9 +179,10 @@ Let's run our expression generator:
 % Slide 3.2
 \begin{frame}
 \frametitle{Let's generate something!}
-And we get ``$ 6536 / 1.9 $'' \dots?
+And we get \dots
 \begin{center}
-	\includegraphics[width=0.8\textwidth]{img/trees_example_1}	
+	\includegraphics[width=0.8\textwidth]{img/trees_example_1} \\
+	{\dots ``$ 6536 / 1.9 $''??}
 \end{center}
 \end{frame}
 
@@ -204,7 +205,7 @@ tree that generated ``$ 6539 / 1.9 $'' has depth $ 6 $
 \footnote{
 	Due to the grammar and the starting rule, it's not possible
 	to have tree depth exactly 5.
-} !
+}!
 \begin{center}
 	\includegraphics[width=0.6\textwidth]{img/trees_abstract} \\
 \end{center}
@@ -215,9 +216,9 @@ tree that generated ``$ 6539 / 1.9 $'' has depth $ 6 $
 \frametitle{Trees and trees}
 \begin{itemize}
 \item What we usually represent in expression tutor is the
-	  \textbf{concrete tree}.
-\item When we generate expressions from grammars we have to work with
-	  \textbf{abstract trees}.
+	  \textbf{abstract tree}.
+\item When we generate expressions from grammars we have to build an
+	  \textbf{concrete tree} to create the expression string.
 \item We've seen how the abstract tree of an expression does not correspond
 	  to the concrete tree of the same expression.
 \item The differences between the two depend on how the grammar rules are

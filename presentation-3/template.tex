@@ -1,0 +1,87 @@
+\documentclass[t,aspectratio=43]{beamer}
+
+\usepackage{listings}
+
+\usetheme{default}
+\beamertemplatenavigationsymbolsempty\setbeamersize{
+    text margin left=0pt,
+    text margin right=0pt
+}
+
+% Title
+\setbeamerfont{title}{size=\LARGE, 
+                      series=\bfseries,
+                      family=\rmfamily}
+\setbeamercolor{title}{fg=blue!70!black}
+\setbeamertemplate{frametitle}{
+    \nointerlineskip\;
+    \begin{beamercolorbox}[sep=.1ex,
+                           wd=\paperwidth,
+                           leftskip=0pt,
+                           rightskip=0pt]{frametitle}
+        \usebeamerfont{frametitle}
+        \usebeamercolor[fg]{frametitle}
+        \\
+        \hfill
+        \insertframetitle\;
+        \strut\;
+    \end{beamercolorbox}
+}
+% Alerted text
+\setbeamerfont{alerted text}{shape=\itshape,
+                             series=\bfseries}
+\setbeamercolor{alerted text}{fg=blue!70!black}
+% Itemize
+\setbeamercolor{itemize item}{fg=blue!70!black}
+\setbeamercolor{itemize subitem}{fg=blue!70!black}
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[triangle]
+% Blocks
+\setbeamercolor{block body example}{fg=black!90,
+                                    bg=black!10}
+\setbeamercolor{block title example}{fg=white,
+                                     bg=blue!30!black!30}
+\setbeamertemplate{blocks}[shadow=true]
+
+\title{Bachelor Project SP 2021}
+\subtitle{Quiz generator}
+\author{Bevilacqua Joey\\Advisor: Hauswirth Matthias\\Co-Advisor: Moreno Santos Igor}
+\institute{Universit\`a della Svizzera Italiana}
+\date{May 31, 2021}
+
+\geometry{paperwidth=500pt, paperheight=300pt}
+
+\begin{document}
+
+% Slide 1
+\begin{frame}
+\maketitle
+\end{frame}
+
+% Slide 2
+\begin{frame}
+\begin{center}
+\begin{tabular}{lll}
+\textbf{Activity}                   & \textbf{Status}                           & \textbf{Effort} \\\hline
+Preparation activities: setup work, & Completed. Used tools: Bazel build,       & 2 days          \\
+environment, testing infrastructure & system JUnit, PMD, CheckStyle,            &                 \\
+and static analysis tools.          & GitHub actions.                           &                 \\\hline
+Setup ANTLR \& write a parser and   & Completed. A reference project has been   & 1 day           \\
+interpreter for a simple expression & created and documented so that it can     &                 \\
+language.                           & be used to understand how ANTLR works.    &                 \\\hline
+Implement a tool for generating     & Completed. It's possible to generate      & 5 days          \\
+expressions from grammars.          & random expressions using ANTLR grammars.  &                 \\\hline
+Implement constraints on the        & Completed. Rule inclusion, CST depth      & 6 days          \\
+randomly generated CST such as tree & bounds and maximum number of repetitions  &                 \\
+dimensions and usage of specific    & constraints have been implemented.        &                 \\
+grammar rules.                      &                                           &                 \\\hline
+Command line interface for          & Completed. It is possible to generate     & 1 day           \\
+generating expressions.             & expressions from the command line.        &                 \\\hline
+Implement web integrations for      & Completed. It's possible to generate      & 2 days          \\
+\url{https://expressiontutor.org}   & expressions from the Activity Designer.   &                 \\\hline
+Write a report to detail the        & Work in progress.                         & 5 days          \\
+development process of the tool.    &                                           &                 \\\hline
+\end{tabular}
+\end{center}
+\end{frame}
+\end{document}
