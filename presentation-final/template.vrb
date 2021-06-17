@@ -1,0 +1,14 @@
+\frametitle{1. What language do you want me to speak? – Grammars}
+
+\textbf{ANTLR grammars}
+
+\begin{lstlisting}[style=antlr]
+expr: SUBJECT 'like' (targets | target);
+targets: targets ', ' target
+       | target 'and' target;
+target: 'the color ' COLOR
+      | 'the number ' NUM;
+SUBJECT: 'I' | 'you' | 'we';
+COLOR: 'red' | 'green' | 'blue';
+NUM: '0' | [1-9] [0-9]*;
+\end{lstlisting}
