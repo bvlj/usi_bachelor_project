@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+
+\bibitem{webcheckstyle}
+{Checkstyle contributors}.
+\newblock Checkstyle.
+\newblock \url{https://checkstyle.sourceforge.io/}, 2021.
+\newblock [Online; accessed 6-June-2021].
+
+\bibitem{chomsky2002syntactic}
+N.~Chomsky and D.~Lightfoot.
+\newblock {\em {Syntactic Structures}}.
+\newblock De Gruyter Reference Global. Mouton de Gruyter, 2002.
+
+\bibitem{acmquickcheck}
+K.~Claessen and J.~Hughes.
+\newblock {QuickCheck: A Lightweight Tool for Random Testing of Haskell
+  Programs}.
+\newblock {\em SIGPLAN Notices}, 35(9):268–279, Sept. 2000.
+
+\bibitem{webdropwizard}
+{Coda Hale, Yammer Inc., Dropwizard Team}.
+\newblock Dropwizard.
+\newblock \url{https://www.dropwizard.io/}, 2021.
+\newblock [Online; accessed 6-June-2021].
+
+\bibitem{webbazel}
+{Google Inc.}
+\newblock Bazel.
+\newblock \url{https://bazel.build/}, 2021.
+\newblock [Online; accessed 6-June-2021].
+
+\bibitem{weberrorprone}
+{Google Inc.}
+\newblock Error–prone.
+\newblock \url{https://errorprone.info/}, 2021.
+\newblock [Online; accessed 6-June-2021].
+
+\bibitem{paradiselost}
+L.~Kats, E.~Visser, and G.~Wachsmuth.
+\newblock {Pure and Declarative Syntax Definition: Paradise Lost and Regained}.
+\newblock In {\em {Pure and Declarative Syntax Definition: Paradise Lost and
+  Regained}}, pages 918--932, 01 2010.
+
+\bibitem{oneillpcg2014}
+M.~E. O'Neill.
+\newblock {PCG: A Family of Simple Fast Space-Efficient Statistically Good
+  Algorithms for Random Number Generation}.
+\newblock Technical Report HMC-CS-2014-0905, Harvey Mudd College, Claremont,
+  CA, Sept. 2014.
+
+\bibitem{definitiveantlr4reference}
+T.~Parr.
+\newblock {\em {The Definitive ANTLR 4 Reference}}.
+\newblock The Pragmatic Programmers, LLC, 2012.
+\newblock Retrieved 2021-06-22.
+
+\bibitem{antlrllstar}
+T.~Parr and K.~Fisher.
+\newblock {LL(*): The Foundation of the ANTLR Parser Generator}.
+\newblock In {\em {LL(*): The Foundation of the ANTLR Parser Generator}}, 06
+  2011.
+\newblock Retrieved 2021-06-22.
+
+\bibitem{webpmd}
+{PMD contributors}.
+\newblock {PMD: An Extensible Cross-Language Static Code Analyzer}.
+\newblock \url{https://pmd.github.io/}, 2021.
+\newblock [Online; accessed 6-June-2021].
+
+\bibitem{fuzzingbook2019Grammars}
+A.~Zeller, R.~Gopinath, M.~B{\"o}hme, G.~Fraser, and C.~Holler.
+\newblock {Fuzzing with Grammars}.
+\newblock In {\em The Fuzzing Book}. Saarland University, 2019.
+\newblock Retrieved 2019-12-21.
+
+\end{thebibliography}

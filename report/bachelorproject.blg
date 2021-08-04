@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/NixOS.org)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: bachelorproject.aux
+The style file: abbrv.bst
+Database file #1: references.bib
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            568 strings with 5422 characters,
+and the built_in function-call counts, 3288 in all, are:
+= -- 319
+> -- 134
+< -- 2
++ -- 54
+- -- 42
+* -- 166
+:= -- 562
+add.period$ -- 46
+call.type$ -- 12
+change.case$ -- 55
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 131
+empty$ -- 296
+format.name$ -- 42
+if$ -- 710
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 8
+newline$ -- 71
+num.names$ -- 24
+pop$ -- 87
+preamble$ -- 1
+purify$ -- 45
+quote$ -- 0
+skip$ -- 88
+stack$ -- 0
+substring$ -- 115
+swap$ -- 23
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 0
+while$ -- 27
+width$ -- 14
+write$ -- 144

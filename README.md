@@ -1,4 +1,4 @@
-# Bachelor Project: quiz generator
+# Bachelor Project: expression generator
 
 ## Setup
 
